@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: '/blackjackgurisa/',
-    plugins: [],
+    base: './',  // Usa './' para generar rutas relativas
 });
